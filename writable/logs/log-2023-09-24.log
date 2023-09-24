@@ -1,0 +1,44 @@
+CRITICAL - 2023-09-24 04:38:28 --> Undefined variable $product
+in APPPATH\Views\musics.php on line 32.
+ 1 APPPATH\Views\musics.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\laboratory2\\app\\Views\\musics.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\laboratory2\\app\\Views\\musics.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('musics', [], true)
+ 5 APPPATH\Controllers\MusicController.php(35): view('musics', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->montellano()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 04:40:27 --> Undefined array key "id"
+in APPPATH\Controllers\MusicController.php on line 17.
+ 1 APPPATH\Controllers\MusicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\laboratory2\\app\\Controllers\\MusicController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 04:41:43 --> Undefined array key "id"
+in APPPATH\Controllers\MusicController.php on line 17.
+ 1 APPPATH\Controllers\MusicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\laboratory2\\app\\Controllers\\MusicController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 04:50:24 --> Undefined array key "id"
+in APPPATH\Controllers\MusicController.php on line 17.
+ 1 APPPATH\Controllers\MusicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\laboratory2\\app\\Controllers\\MusicController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 05:39:15 --> Undefined array key "id"
+in APPPATH\Controllers\MusicController.php on line 17.
+ 1 APPPATH\Controllers\MusicController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\laboratory2\\app\\Controllers\\MusicController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory2\\public\\index.php')
